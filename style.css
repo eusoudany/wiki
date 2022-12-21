@@ -1,0 +1,104 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul { 
+    list-style: none; padding-left: 5px; 
+}
+
+a { 
+    color:blue; text-decoration: none;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+figure {
+    text-align: center;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #7f8182;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:center;
+    text-align: center;
+    border-style:groove;
+    padding-left:10px;
+    font-size:13px;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    color:rgb(255, 255, 255);
+    float:center;
+    height:32px;
+    width:80px;
+    font-weight:bold;
+    background:#ffffff;
+  }
+
+  #btnBusca:hover {
+    color:rgb(83, 80, 80);
+    border-style:groove;
+    text-decoration: underline;
+    background:#ddd8d8;
+}
+
+  #divBusca img{
+    float:left;
+  }
+
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .logowiki{
+    padding-left: 0%;
+  }
+
+  table tr:nth-child(even){
+    background-color: rgb(232, 152, 165);
+  }
+  table tr:hover td{
+    background-color: rgb(238, 122, 141);
+  }
